@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 import { Layout, Typography, Space } from 'antd'
-import { Navbar, Homepage, Exchanges, CryptoDetails, Cryptocurrencies, News } from './componets'
+import { Navbar, Homepage, Exchanges, CryptoDetails, Cryptocurrencies, News } from './components'
 import './App.css'
 const App = () => {
   return (
