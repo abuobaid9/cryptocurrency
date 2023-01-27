@@ -301,7 +301,7 @@ a:hover{
 width: 70%;
 }
 
-.news-image-container .img{
+.news-image-container img{
     width:100px;
     height:100px;
 }
@@ -375,4 +375,7 @@ width: 70%;
     flex-direction: column;
     padding: 20px;
     align-items: center;
+}
+.exchange-coming{
+    margin:20px;
 }
