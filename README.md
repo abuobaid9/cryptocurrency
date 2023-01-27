@@ -8,22 +8,22 @@
 
 --------
 
-## **Home Page : The main inforamtion about cryptocurrencies.**
+## **Home Page : The main information about cryptocurrencies.**
 
 ![img](./src/images/1.png)
 
 ## **Cryptocurrencies : List of top 100 cryptocurrencies with search ability.**
 
-![img](./src/images/3.png)
+![img](./src/images/2.png)
 
 ## **Crypto Details : Chart for each cryptocurrency.**
 
+![img](./src/images/3.png)
+
+## **Crypto Details : General information for each cryptocurrency.**
+
 ![img](./src/images/4.png)
-
-## **Crypto Details : General inforamtion for each cryptocurrency.**
-
-![img](./src/images/5.png)
 
 ## **News : The latest cryptocurrency news with search ability.**
 
-![img](./src/images/6.png)
+![img](./src/images/5.png)
