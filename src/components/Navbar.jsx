@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Button, Menu, Typography, Avatar } from 'antd';
 import { Link } from 'react-router-dom';
-import { HomeOutlined, MoneyCollectOutlined, BulbOutlined, FundOutlined, MenuOutlined } from '@ant-design/icons';
+import { HomeOutlined, MessageOutlined, BulbOutlined, FundOutlined, MenuOutlined } from '@ant-design/icons';
 
 import icon from '../images/logo.png';
 
@@ -36,17 +36,20 @@ const Navbar = () => {
       </div>
       {activeMenu && (
       <Menu theme="dark">
-        <Menu.Item icon={<HomeOutlined />}>
+        <Menu.Item icon={<HomeOutlined />} key='0'>
           <Link to="/">Home</Link>
         </Menu.Item>
-        <Menu.Item icon={<FundOutlined />}>
+        <Menu.Item icon={<FundOutlined />} key={'1'}>
           <Link to="/cryptocurrencies">Cryptocurrencies</Link>
         </Menu.Item>
-        <Menu.Item icon={<MoneyCollectOutlined />}>
+        {/* <Menu.Item icon={<MoneyCollectOutlined />} key='2'>
           <Link to="/exchanges">Exchanges</Link>
-        </Menu.Item>
-        <Menu.Item icon={<BulbOutlined />}>
+        </Menu.Item> */}
+        <Menu.Item icon={<BulbOutlined />} key='3'>
           <Link to="/news">News</Link>
+        </Menu.Item>
+        <Menu.Item icon={<MessageOutlined />} key='2'>
+        <a href="https://anas-portfolio99.netlify.app/" target="_blank" rel="noreferrer" >Contact Me</a>
         </Menu.Item>
       </Menu>
       )}
