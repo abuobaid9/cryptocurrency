@@ -8,7 +8,7 @@
 
 --------
 
-## **Home Page : The main inforamtion about cryptocurrencies.**
+## **Home Page : The main information about cryptocurrencies.**
 
 ![img](./src/images/1.png)
 
@@ -20,7 +20,7 @@
 
 ![img](./src/images/4.png)
 
-## **Crypto Details : General inforamtion for each cryptocurrency.**
+## **Crypto Details : General information for each cryptocurrency.**
 
 ![img](./src/images/5.png)
 
