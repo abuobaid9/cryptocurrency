@@ -27,3 +27,4 @@
 ## **News : The latest cryptocurrency news with search ability.**
 
 ![img](./src/images/5.png)
+
